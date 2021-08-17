@@ -1,0 +1,15 @@
+import { SinglyLinkedList } from "./SinglyLinkedList.js";
+let sll = new SinglyLinkedList();
+sll.append(0);
+sll.append(1);
+sll.append(2);
+sll.insert(1, 22);
+sll.insert(1, 22);
+sll.insert(1, 22);
+console.log(sll.toString());
+sll.remove(1);
+console.log(sll.toString());
+sll.remove(0);
+console.log(sll.toString());
+sll.remove(sll.size() - 1);
+console.log(sll.toString());
