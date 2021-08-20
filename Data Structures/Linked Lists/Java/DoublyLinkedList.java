@@ -1,5 +1,3 @@
-import java.util.EmptyStackException;
-
 public class DoublyLinkedList<T> {
     private Node head, tail;
     private int size;

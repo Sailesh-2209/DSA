@@ -1,3 +1,5 @@
+// reversing a linked list
+
 public class Solution {
     public static <T> ListNode<T> reverseList(ListNode<T> head) {
         ListNode<T> prev, next, curr;

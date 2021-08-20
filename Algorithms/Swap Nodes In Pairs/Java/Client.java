@@ -1,5 +1,3 @@
-// code for problem statement and to test solution
-
 import java.util.Random;
 
 public class Client {
@@ -20,8 +18,8 @@ public class Client {
             curr = curr.next;
         }
         System.out.println();
-        System.out.println("Reversed Linked List: ");
-        ListNode<Integer> reverseHead = Solution.reverseList(head);
+        System.out.println("Pair Wise Reversed Linked List: ");
+        ListNode<Integer> reverseHead = Solution.swapPairs(head);
         while (reverseHead != null) {
             System.out.printf("%d ", reverseHead.val);
             reverseHead = reverseHead.next;
