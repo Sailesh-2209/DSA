@@ -49,3 +49,11 @@
 | Removing at head       | O(1) - Constant Time | O(1) - Constant Time |
 | Removing at tail       | O(n) - Linear Time   | O(1) - Constant Time |
 | Removing at any index  | O(n) - Linear Time   | O(n) - Linear Time   |
+
+## Arrays vs Linked Lists
+
+| Linked Lists                            | Arrays                              |
+| --------------------------------------- | ----------------------------------- |
+| Deletions are constant time             | Deletions can take upto linear time |
+| Size of the linked lists can be changed | Array size is fixed                 |
+| Finding an element can tke linear time  | Finding an element is constant time |
